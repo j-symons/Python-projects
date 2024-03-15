@@ -1,1 +1,1 @@
-Hello, here I will upload all projects I have made using the programming lanuage python
+This will be where I upload all projects or random bits of code using the programming language python :)
