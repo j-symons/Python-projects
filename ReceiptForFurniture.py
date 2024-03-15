@@ -17,13 +17,8 @@ sales_tax = .088
 
 #Customer one
 customer_one_total = 254.00 + 51.15
-customer_one_itemization = """
-Lovely Loveseat: Tufted polyester blend on wood. 32 inches high x 40 inches wide x 30 inches deep. Red or white.
-
-Luxurious Lamp: Glass and iron. 36 inches tall. Brown with cream shade.
-"""
 customer_one_tax = customer_one_total + sales_tax
 
-print("Customer One Items:", customer_one_itemization)
+print("Customer One Items:", lovely_loveseat_description + " " + luxurious_lamp_description)
 print("Custoner One Total:", customer_one_tax)
 
